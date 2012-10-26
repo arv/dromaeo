@@ -1,0 +1,17 @@
+This is a fork of Dromaeo that tests the performarmance inpact of the
+ShadowDOM polyfill found at
+
+  https://github.com/toolkitchen/polyfills/tree/master/ShadowDOM
+
+To run the tests with the polyfill turned on append #polyfill to the URL. For
+example:
+
+  http://localhost:8000/web/index.html?dom#polyfill
+
+Some of the tests are not impacted by the polyfill because the polyfill is far
+from complete.
+
+This uses git submodules so you need to run:
+
+  git submodules init
+  git submodules update
