@@ -3,6 +3,8 @@
 <script src="../htmlrunner.js"></script>
 <script>
 window.onload = function(){
+(function(document) {
+
 startTest("dom-query");
 
 // Try to force real results
@@ -100,6 +102,8 @@ var html = document.body.innerHTML;
 	});
 
 endTest();
+
+})(ShadowDOMPolyfill.wrap(document));
 };
 </script>
 </head>

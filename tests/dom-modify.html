@@ -3,6 +3,7 @@
 <script src="../htmlrunner.js"></script>
 <script>
 window.onload = function(){
+(function(document) {
 startTest("dom-modify");
 
 // Try to force real results
@@ -73,6 +74,7 @@ for ( var i = 0; i < 1024; i++ )
 	});
 
 endTest();
+})(wrap(document));
 };
 </script>
 </head>

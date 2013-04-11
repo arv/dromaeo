@@ -3,6 +3,8 @@
 <script src="../htmlrunner.js"></script>
 <script>
 window.onload = function(){
+(function(document) {
+
 startTest("dom-traverse");
 
 // Try to force real results
@@ -72,6 +74,8 @@ var html = document.body.innerHTML;
 	});
 
 endTest();
+
+})(wrap(document));
 };
 </script>
 </head>

@@ -3,6 +3,8 @@
 <script src="../htmlrunner.js"></script>
 <script>
 window.onload = function(){
+(function(document) {
+
 startTest("dom-attr");
 
 // Try to force real results
@@ -43,6 +45,8 @@ var num = 10240;
 	});
 
 endTest();
+
+})(wrap(document));
 };
 </script>
 </head>
