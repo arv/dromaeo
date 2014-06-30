@@ -1,0 +1,21 @@
+{
+  "name": "dromaeo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/arv/dromaeo",
+  "authors": [
+    "Erik Arvidsson <arv@chromium.org>"
+  ],
+  "description": "Dromeao + ShadowDOM Polyfill",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ShadowDOM": "Polymer/ShadowDOM#~0.3.x"
+  }
+}

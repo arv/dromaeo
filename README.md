@@ -1,16 +1,13 @@
 This is a fork of [Dromaeo](https://github.com/jeresig/dromaeo) that tests the
 performance impact of the ShadowDOM polyfill found at:
 
-https://github.com/toolkitchen/ShadowDOM
+https://github.com/Polymer/ShadowDOM
 
-This uses git submodules so you need to run:
+This uses bower to pull in the ShadowDOM polyfill.
 
 ```sh
-git submodules init
-git submodules update
+bower update
 ```
-
-(or `git clone --recursive`)
 
 To build the test you need to run:
 

@@ -14,7 +14,7 @@ if (/polyfill/.test(top.location.hash)) {
   var scripts = document.querySelectorAll('script[src]');
   var src = scripts[scripts.length - 1].src;
   var basePath = src.replace(/\/[^\/]*$/, '/');
-  var polyfillPath = basePath + '../ShadowDOM/shadowdom.js'
+  var polyfillPath = basePath + '../bower_components/ShadowDOM/shadowdom.js'
   document.write('<script src="' + polyfillPath + '"></script>');
 
   wrap = function(obj) {
